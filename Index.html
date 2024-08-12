@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/Img/SVG - Favicon/Chiapp.jpg" type="image/x-icon"> 
+
+    <!-- Titulo -->
+    <title>ChiappAutomotor</title>
+    <!-- ------ -->
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="CSS/Styles.css">
+    <!-- ------ -->
+
+    <!-- Swiper css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- ------ -->
+
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <!-- ------ -->
+
+     <!-- Imagenes de <a href="https://pixabay.com/rce=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5819031">Daria Bezukladnikova</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5819031">Pixabay</a> -->
+</head>
+<body>
+
+        
+        <div class="top-header"><!-- top header section -->
+            <div class="out-box">
+                <div class="inside-box">
+                    <div class="col-1">
+                        <span><i class='bx bxs-envelope' ></i>ChiappAutomotor@gmail.com</span>
+                        <span><i class='bx bxs-phone-call'></i>+54 2625-123456</span>
+                        <span><i class='bx bxs-alarm' ></i>Lunes - Viernes(08AM - 19PM) </span>
+                    </div>
+                    <div class="col-2">
+                        <a href="#"><i class='bx bx-arrow-to-right'></i>Inicio sesion</a>
+                        <a href="#"><i class='bx bx-user'></i>Registrarse</a>
+                        <div class="social">
+                            <i class='bx bxl-facebook' ></i>
+                            <i class='bx bxl-twitter'></i>
+                            <i class='bx bxl-instagram' ></i>
+                            <i class='bx bxl-linkedin-square' ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  ------------------  -->
+
+        
+        <header class="header"><!-- navbar section -->
+            <div class="logo">
+                <img src="/Img/SVG - Favicon/logo2.png" alt="">
+            </div>
+            <nav>
+                <div class="navbar">
+                        <ul class="navLink">
+                            <li><a href="#" class="active">Inicio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Categorías<i class='bx bx-chevron-down chev'></i></a>
+                                <ul class="drop-down">
+                                    <li><a href="#">Camionetas</a></li>
+                                    <li><a href="#">Autos</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Páginas<i class='bx bx-chevron-down chev'></i></a>
+                                <ul class="drop-down">
+                                    <li><a href="#">Listado de vehículos</a></li>
+                                    <li><a href="#">Cuenta<i class='bx bx-chevron-down chev'></i></a>
+                                        <ul class="drop-down-three">
+                                            <li><a href="#">Panel</a></li>
+                                            <li><a href="#">Mi perfil</a></li>
+                                            <li><a href="#">Mi listado</a></li>
+                                            <li><a href="#">Agregar al listado</a></li>
+                                            <li><a href="#">Mis favoritos</a></li>
+                                            <li><a href="#">Mensajes</a></li>
+                                            <li><a href="#">Configuraciones</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Autenficación<i class='bx bx-chevron-down chev'></i></a>
+                                        <ul class="drop-down-four">
+                                            <li><a href="#">Login</a></li>
+                                            <li><a href="#">Registrarse</a></li>
+                                            <li><a href="#">¿Has olvidado tu contraseña?</a></li>
+                                        </ul> 
+                                        <li><a href="#">Servicios</a></li>
+                                        <li><a href="#">Calculadora</a></li>
+                                        <li><a href="#">FAQ's</a></li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Tienda</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">Acerca de</a></li>
+                        </ul>
+                </div>
+
+                <div class="otros">
+                    <i class='bx bx-search'></i>
+                    <i class='bx bx-cart-alt cart'></i>
+                    <button class="addBtn"><i class='bx bx-plus-circle'></i>Agregar lista</button>
+                    <i class='bx bx-menu' id="menuBtn"></i>
+                </div>
+            </nav>
+        </header>
+
+        
+        <div class="home"><!-- home section -->
+            <div class="swiper myHome">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slide slide-one"> <!-- Cajón uno-->
+
+                        <div class="col-1">
+                            <h4>Bienvenido a ChiappAutomotor</h4>
+                            <h1>Encontra el<br> auto <span>de tus sueños.</span></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Fuga consectetur facere voluptates obcaecati natus eligendi!</p>
+                            
+                            <div class="button">
+                                <button type="submit" class="about"><i class='bx bx-right-arrow-alt'></i>Ver más</button>
+                                <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Ir a la tienda</button>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="Img/home/img.bk/martin1hy.png" alt="">
+                        </div>
+                    </div> 
+
+                    <div class="swiper-slide slide slide-two"> <!-- Cajón dos-->
+
+                        <div class="col-1">
+                            <h4>Bienvenido a ChiappAutomotor</h4>
+                            <h1>Encontra el<br> auto <span>de tus sueños.</span></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Fuga consectetur facere voluptates obcaecati natus eligendi!</p>
+                            
+                            <div class="button">
+                                <button type="submit" class="about"><i class='bx bx-right-arrow-alt'></i>Ver más</button>
+                                <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Ir a la tienda</button>
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <img src="Img/home/img.bk//remyAU.png" alt="">
+                        </div>
+
+                    </div> 
+
+                    <div class="swiper-slide slide slide-three"> <!-- Cajón tres-->
+
+                        <div class="col-1">
+                            <h4>Bienvenido a ChiappAutomotor</h4>
+                            <h1>Encontra el<br> auto <span>de tus sueños.</span></h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Fuga consectetur facere voluptates obcaecati natus eligendi!</p>
+
+                            <div class="button">
+                                <button type="submit" class="about"><i class='bx bx-right-arrow-alt'></i>Ver más</button>
+                                <button type="submit" class="learn"><i class='bx bx-right-arrow-alt'></i>Ir a la tienda</button>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <img src="Img/home/img.bk/toyotaCA.png" alt="">
+                        </div> 
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+        
+        <div class="search"><!-- section car -->
+            <div class="find"><!-- Cajón de busqueda de vehículos -->
+                <h3>Encontremos tu auto perfecto</h3>
+                <div class="find-row">
+                    <div class="find-item">
+                        <h4>Estados</h4>
+                        <select name="" id="">
+                            <option value="">Todo el estado</option>
+                            <option value="">Auto nuevo</option>
+                            <option value="">Autos usados</option>
+                        </select>
+                    </div>            
+                    <div class="find-item">
+                        <h4>Nombre de la marca</h4>
+                        <select name="" id="">
+                            <option value="">Todas las marcas</option>
+                            <option value="">Fiat</option>
+                            <option value="">Toyota</option>
+                            <option value="">Nissan</option>
+                            <option value="">BMW</option>
+                        </select>
+                    </div>
+                    <div class="find-item">
+                        <h4>Modelo de vehículo</h4>
+                        <select name="" id="">
+                            <option value="">Todas los modelos</option>
+                            <option value="">Cronos</option>
+                            <option value="">Sandero</option>
+                            <option value="">208</option>
+                            <option value="">Hilux</option>
+                        </select>
+                    </div>
+                    <div class="find-item">
+                        <h4>Todos los años</h4>
+                        <select name="" id="">
+                            <option value="">2022</option>
+                            <option value="">2019</option>
+                            <option value="">2015</option>
+                            <option value="">2012</option>
+                            <option value="">2010</option>
+                        </select>
+                    </div>
+                    <div class="find-item">
+                        <h4>Rango de precios</h4>
+                        <select name="" id="">
+                            <option value="">Todos los precios</option>
+                            <option value="">$1,000 - $5,000</option>
+                            <option value="">$5,000 - $10,000</option>
+                            <option value="">$10,000 - $20,000</option>
+                            <option value="">$20,000 - $25,000</option>
+                        </select>
+                    </div>
+                    <div class="find-item">
+                        <h4>Tipo de carrocería</h4>
+                        <select name="" id="">
+                            <option value="">Tipo de carrocería</option>
+                            <option value="">Sedan</option>
+                            <option value="">Compact</option>
+                            <option value="">Coupe</option>
+                            <option value="">Familiar</option>
+                        </select>
+                    </div>
+                    <div class="search-btn">
+                        <button><i class="bx bx-search"></i>Encuentra tu auto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <section class="market"><!-- market section -->
+            <div class="col-3">
+                <img class="one" src="Img/market/FFAq3r9u0.jpg" alt="">
+                <div class="service">
+                    <img class="two" src="\Img\Icono/market3.png" alt="">
+                    <span >5 años de servicio y <br> calidad</span>
+                </div>
+            </div>
+            <div class="col-4">
+                <h4><i class='bx bx-car'></i>Sobre nosotros</h4>
+                <h3>El mejor <span> mercado de automóviles<br></span>de mendoza</h3>
+                <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos nemo molestias soluta, numquam in
+                    repellat pariatur unde molestiae adipisci distinctio?</p>
+
+                <p class="p1"><i class='bx bx-last-page'></i>Lorem ipsum dolor sit amet.</p>
+                <p class="p1"><i class='bx bx-last-page'></i>Lorem ipsum dolor sit amet.</p>
+                <p class="p1"><i class='bx bx-last-page'></i>Lorem ipsum dolor sit amet.</p>
+
+                <button>Descubrir más<i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </section>
+        
+
+        
+        <div class="counter"><!-- counter section -->
+            <div class="container">
+                <img src="Img/Icono/icono2.png" alt="">
+                <span class="num" data-value="110">000</span>
+                <span class="text"><i class='bx bx-plus'></i>Autos disponibles</span>
+            </div>
+            <div class="container">
+                <img src="Img/Icono/icono3.png" alt="">
+                <span class="num" data-value="193">000</span>
+                <span class="text"><i class='bx bx-plus'></i>Clientes felices</span>
+            </div>
+            <div class="container">
+                <img src="Img/Icono/icono4.png" alt="">
+                <span class="num" data-value="15">000</span>
+                <span class="text"><i class='bx bx-plus'></i>Equipo de trabajo</span>
+            </div>
+            <div class="container">
+                <img src="Img/Icono/icono5.png">
+                <span class="num" data-value="10">000</span>
+                <span class="text"><i class='bx bx-plus'></i>Años de experiencia</span>
+            </div>
+        </div>
+
+        
+
+        <section class="arrivals"><!-- arrivals section -->
+            <h4><i class='bx bx-car'></i>Los recién llegados</h4>
+            <h1>Revisemos el <span> último auto</span></h1>
+
+            <div class="arr-row">
+
+                <div class="arr-col"> <!-- Columna 1-->
+                    <div class="image">
+                        <img src="/Img/Arrivals/Arrival1.jpg" alt="">
+                    </div>
+
+                    <h5>Dodge RAM 2500 6.7L TD </h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (4.1 1k Vistas)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class='bx bx-error-circle' ></i>Automático</span>
+                        <span><i class='bx bx-label' ></i>Gasolina</span>
+                        <span><i class='bx bx-car' ></i>Model 2022</span>
+                        <span><i class='bx bx-target-lock' ></i>HEMI V8</span>
+                    </div>
+                    <div class="price">
+                        <p>$1000</p>
+                        <button>Detalles</button>
+                    </div>
+                </div>
+                <div class="arr-col"> <!-- Columna 2-->
+                    <div class="image">
+                        <img src="/Img/Arrivals/Arrival2.jpg" alt="">
+                    </div>
+
+                    <h5>Hilux 4X2 2.7 MT SR </h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <div class="review">
+                            <span>4.0 (5.8 1k Vistas)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class='bx bx-error-circle' ></i>Automático/Manual</span>
+                        <span><i class='bx bx-label' ></i>Diesel</span>
+                        <span><i class='bx bx-car' ></i>MT de 6 velocidades</span>
+                        <span><i class='bx bx-target-lock' ></i>201HP</span>
+                    </div>
+                    <div class="price">
+                        <p>$1000</p>
+                        <button>Detalles</button>
+                    </div>
+                </div>
+                <div class="arr-col"> <!-- Columna 3-->
+                    <div class="image">
+                        <img src="/Img/Arrivals/Arrival3.jpg" alt="">
+                    </div>
+
+                    <h5>Hilux 4x4 2.4 MT DX</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bx-star'></i>
+                        </div>
+                        <div class="review">
+                            <span>4.0 (5 5k Vistas)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class='bx bx-error-circle' ></i>Automático/Manual</span>
+                        <span><i class='bx bx-label' ></i>Diesel</span>
+                        <span><i class='bx bx-car' ></i>MT de 6 velocidades</span>
+                        <span><i class='bx bx-target-lock' ></i>201HP</span>
+                    </div>
+                    <div class="price">
+                        <p>$1000</p>
+                        <button>Detalles</button>
+                    </div>
+                </div>
+                <div class="arr-col"> <!-- Columna 4-->
+                    <div class="image">
+                        <img src="/Img/Arrivals/Arrival4.jpg" alt="">
+                    </div>
+
+                    <h5>Toyota Corolla 2.0 Xei</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (2.8 1k Vistas)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class='bx bx-error-circle' ></i>Automático</span>
+                        <span><i class='bx bx-label' ></i>Nafta</span>
+                        <span><i class='bx bx-car' ></i>Model 2023</span>
+                        <span><i class='bx bx-target-lock' ></i>Cvt 170cv</span>
+                    </div>
+                    <div class="price">
+                        <p>$1000</p>
+                        <button>Detalles</button>
+                    </div>
+                </div>
+                <div class="arr-col"> <!-- Columna 5-->
+                    <div class="image">
+                        <img src="/Img/Arrivals/Arrival5.jpg" alt="">
+                    </div>
+
+                    <h5> Ford Focus</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 1k Vistas)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class='bx bx-error-circle' ></i>Manual</span>
+                        <span><i class='bx bx-label' ></i>Nafta</span>
+                        <span><i class='bx bx-car' ></i>Model 2018</span>
+                        <span><i class='bx bx-target-lock' ></i>1.6 S MT</span>
+                    </div>
+                    <div class="price">
+                        <p>$1000</p>
+                        <button>Detalles</button>
+                    </div>
+                </div>
+                <div class="arr-col"> <!-- Columna 6-->
+                    <div class="image">
+                        <img src="/Img/Arrivals/Arrival7.jpg" alt="">
+                    </div>
+
+                    <h5> Volkswagen Amarok NEGRO 3.0</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (5.8 1k Vistas)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class='bx bx-error-circle' ></i>Automático</span>
+                        <span><i class='bx bx-label' ></i>Diésel</span>
+                        <span><i class='bx bx-car' ></i>Model 2023</span>
+                        <span><i class='bx bx-target-lock' ></i>V6 Extreme</span>
+                    </div>
+                    <div class="price">
+                        <p>$1000</p>
+                        <button>Detalles</button>
+                    </div>
+                </div>
+                <div class="arr-col"> <!-- Columna 7-->
+                    <div class="image">
+                        <img src="/Img/Arrivals/Arrival8.jpg" alt="">
+                    </div>
+
+                    <h5> Volkswagen Amarok GRIS 3.0</h5>
+                    <div class="rating">
+                        <div class="stars">
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star' ></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <div class="review">
+                            <span>5.0 (3.8 1k Vistas)</span>
+                        </div>
+                    </div>
+                    <div class="features">
+                        <span><i class='bx bx-error-circle' ></i>Automático</span>
+                        <span><i class='bx bx-label' ></i>Diésel</span>
+                        <span><i class='bx bx-car' ></i>Model 2023</span>
+                        <span><i class='bx bx-target-lock' ></i>V6 Extreme</span>
+                    </div>
+                    <div class="price">
+                        <p>$1000</p>
+                        <button>Detalles</button>
+                    </div>
+                </div>
+            </div>
+
+            <button class="load">Carga más <i class='bx bx-sync' ></i></button>
+        </section>
+
+
+        <section class="quality"><!-- quality section -->
+            <div class="qul-row">
+                <div class="col-1">
+                    <div class="qul-one">
+                        <div class="number">
+                            <img src="/Img/Quality/Quality1.png" alt="">
+                            <h2>01</h2>
+                        </div>
+                        <h5>Autos de mejor calidad</h5>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    </div>
+                    <div class="qul-one">
+                        <div class="number">
+                            <img src="/Img/Quality/Quality2.png" alt="">
+                            <h2>02</h2>
+                        </div>
+                        <h5>Mecánicos certificados</h5>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                </div>
+                <div class="col-1 center">
+                    </div>
+                    <div class="qul-one">
+                        <div class="number">
+                            <img src="/Img/Quality/Quality3.png" alt="">
+                            <h2>03</h2>
+                        </div>
+                        <h5>Marcas populares</h5>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    </div>
+                    <div class="qul-one">
+                        <div class="number">
+                            <img src="/Img/Quality/Quality4.png" alt="">
+                            <h2>04</h2>
+                        </div>
+                        <h5>Precios razonables</h5>
+                        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h4><i class="bx bx-car"></i> Por qué elegirnos</h4>
+                    <h3>Estamos dedicados <span>a <br> brindar</span> un servicio de calidad.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ipsam tenetur 
+                    nam excepturi blanditiis optio nulla, incidunt iure beatae fugit!</p>
+
+                    <img src="/Img/Quality/CarQuality.png" alt="">
+                </div>
+            </div>
+        </section>
+       
+
+        <!-- band section -->
+
+       <section class="brand">
+        <h4><i class="bx bx-car"></i>Vendedor de autos</h4>
+            <h1>Nuestra marca de <span>primera calidad</span></h1>
+
+            <div class="brand-row">
+                <div class="brand-col">
+                    <img src="" alt="">
+                </div>
+            </div>
+       </section>
+
+        <!-- client section -->
+
+        <!-- download  section -->
+
+        <!-- footer section -->
+
+
+        
+        <!-- swiper section -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- custom script file -->
+        <script src="JS/script.js"></script>
+
+</body>
+</html>
