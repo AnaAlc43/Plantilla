@@ -561,8 +561,11 @@ nav .navbar ul li .drop-down li:hover a{
 
 
 
+/*==== perfect section ====*/
 
-.search{/*==== perfect section ====*/
+
+/*- CÓDIGO ORIGINAL -*/
+/*.search{ 
     position: relative;
     padding: 0 16rem;
     background: #f7f2f2;
@@ -570,7 +573,7 @@ nav .navbar ul li .drop-down li:hover a{
 
 .search .find{
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     padding: 2.5rem;
     position: absolute;
     top: -7rem;
@@ -579,7 +582,32 @@ nav .navbar ul li .drop-down li:hover a{
     box-shadow: 0 0 5px rgba(190, 190, 190, 0.5), 
     0 0 10px rgba(190, 190, 190, 0.5);
     overflow: hidden;
+}*/
+
+
+/*CÓDIGO CON CORRECCIONES*/
+.search {
+    position: relative;
+    padding: 0; /* Elimina el padding fijo */
+    background: #f7f2f2;
+    display: flex;
+    justify-content: center;
 }
+
+.search .find {
+    max-width: 1200px;
+    width: 100%;
+    padding: 2.5rem;
+    position: absolute;
+    top: -7rem;
+    z-index: 111;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(190, 190, 190, 0.5), 
+                0 0 10px rgba(190, 190, 190, 0.5);
+    overflow: hidden;
+    transform: translateX(0); /* Mantén centrado el elemento */
+}
+
 
 .find .find-row{
     display: grid;
@@ -1069,7 +1097,7 @@ section{/*==== market section ====*/
 
 .quality{/*++++++++++ Quality section ++++++++++*/
     width: 100%;
-    background: #14162275;
+    background: #141622;
 }
 
 .quality .qul-row{
