@@ -1309,6 +1309,9 @@ section{/*==== market section ====*/
     letter-spacing: 1px;
     color: var(--text-color);
 }
+.client span{
+    color: var(--main-color);
+}
 
 .client p {
     color: var(--text-color);
