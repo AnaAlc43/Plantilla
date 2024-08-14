@@ -1309,7 +1309,7 @@ section{/*==== market section ====*/
     letter-spacing: 1px;
     color: var(--text-color);
 }
-.client span{
+.client .miniTit{
     color: var(--main-color);
 }
 
@@ -1320,7 +1320,7 @@ section{/*==== market section ====*/
 }
 
 /* Sección de testimonios */
-.client .slide {
+.client.slide {
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
     padding: 2rem; /* Aumenta el padding para más espacio interno */
@@ -1348,7 +1348,7 @@ section{/*==== market section ====*/
 }
 
 .client .slide span {
-    color: var(--main-color);
+    color: var(--text-color);
     font-size: 1.2rem;
     font-weight: 600;
     display: block;
@@ -1367,14 +1367,45 @@ section{/*==== market section ====*/
     font-size: 1.5rem;
     margin-right: 0.2rem; /* Espacio entre estrellas */
 }
+.client .swiper-slide .slide span{
+    color: var(--text-color);
+}
 
-/* Para la vista en dispositivos móviles */
-@media (max-width: 768px) {
-    .client .swiper-wrapper {
-        flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+/* Para la vista en dispositivos móviles 
+    @media (max-width: 768px) {
+        .client .swiper-wrapper {
+            flex-direction: column;
+        }
+
+        .client .slide {
+            max-width: 90%; 
+        }
     }
 
-    .client .slide {
-        max-width: 90%; /* Ocupa más espacio en pantallas pequeñas */
+*/
+@media(max-width:1024px){
+    .client .swiper-wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width:768px){
+    .client .swiper-wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+    .client h1{
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width:640px){
+    .client .swiper-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .swiper-slide .slide img{
+        height: auto;
+    }
+    .swiper-slide .slide h1{
+        font-size: 2.4rem;
     }
 }

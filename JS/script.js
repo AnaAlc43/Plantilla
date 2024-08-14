@@ -64,7 +64,7 @@ valueDisplay.forEach((valueDisplay) => {
 /* client section  */
 
 var swiper = new Swiper(".myClient", {
-  slidePerview: 1,
+  slidePerView: 1,
   spaceBetween: 10,
   centeredSlides: true,
   loop:true,
@@ -72,7 +72,7 @@ var swiper = new Swiper(".myClient", {
     delay: 3000,
     disableOnInteraction: false,
   },
-  breakpoints:{
+  breakpoints: {
     640: {
       slidesPerView: 1,
       spaceBetween: 20,
