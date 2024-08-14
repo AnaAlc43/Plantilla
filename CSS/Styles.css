@@ -113,10 +113,6 @@ html{
 
 
 
-
-
-
-
 .header{/* navbar section */
     width: 100%;
     position: sticky;
@@ -362,10 +358,6 @@ nav .navbar ul li .drop-down li:hover a{
 
 
 
-
-
-
-
 .home .slide{/*==== home section ====*/
     width: 100%;
     height: 110vh;
@@ -563,7 +555,6 @@ nav .navbar ul li .drop-down li:hover a{
 
 /*==== perfect section ====*/
 
-
 /*- CÓDIGO ORIGINAL -*/
 /*.search{ 
     position: relative;
@@ -583,6 +574,7 @@ nav .navbar ul li .drop-down li:hover a{
     0 0 10px rgba(190, 190, 190, 0.5);
     overflow: hidden;
 }*/
+
 
 
 /*CÓDIGO CON CORRECCIONES*/
@@ -664,7 +656,6 @@ nav .navbar ul li .drop-down li:hover a{
 .search .search-btn button:hover{
     background: var(--text-color);
 }
-
 
 
 
@@ -782,8 +773,6 @@ section{/*==== market section ====*/
     background: var(--text-color);
 }
 
-
-
 @media(max-width:1500px){/* @media query - Market*/
     .search .find{
         max-width: 100%;
@@ -895,7 +884,6 @@ section{/*==== market section ====*/
 .counter .container span.text i{
     padding-right: 0.5rem;
 }
-
 
 @media(max-width:1280px){/*-- counter section --*/
     .counter{
@@ -1094,7 +1082,6 @@ section{/*==== market section ====*/
 
 
 
-
 .quality{/*++++++++++ Quality section ++++++++++*/
     width: 100%;
     background: #141622;
@@ -1214,5 +1201,88 @@ section{/*==== market section ====*/
 
 
 
+
+.brand{/* BRAND SECTION */
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.brand h4{
+    color: var(--main-color);
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.brand h1{
+    padding-bottom: 4rem;
+    font-size: 4.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: var(--text-color);
+}
+
+.brand h1 span{
+    color: var(--main-color);
+}
+
+.brand .brand-row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.brand-row .brand-col{
+    position: relative;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #646161;
+    transition: 0.4s;
+}
+
+.brand-row .brand-col:hover{
+    transform: translateY(-5px);
+}
+
+.brand-row .brand-col img{
+    width: 100%;
+    height: 14rem;
+}
+
+.brand-row .brand-col h5{
+    font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+@media(max-width:1300px){
+    .brand .brand-row{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width:768px){
+    .brand .brand-row{
+        grid-template-columns: 1fr 1fr;
+    }
+    .brand h1{
+        font-size: 2.8rem;
+    }
+}
+
+@media(max-width:515px){
+    .brand .brand-row{
+        grid-template-columns: 1fr;
+    }
+    .brand-row .brand-col img{
+        height: auto;
+    }
+    .brand h1{
+        font-size: 2.4rem;
+    }
+}
 
 
