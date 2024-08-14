@@ -600,7 +600,6 @@ nav .navbar ul li .drop-down li:hover a{
     transform: translateX(0); /* Mantén centrado el elemento */
 }
 
-
 .find .find-row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -656,7 +655,6 @@ nav .navbar ul li .drop-down li:hover a{
 .search .search-btn button:hover{
     background: var(--text-color);
 }
-
 
 
 
@@ -834,7 +832,6 @@ section{/*==== market section ====*/
         font-size: 2.4rem;
     }
 }
-
 
 
 
@@ -1053,7 +1050,6 @@ section{/*==== market section ====*/
 .arrivals button.load:hover{
     background: var(--text-color);
 }
-
 
 @media(max-width:1350px){
     .arrivals .arr-row{
@@ -1367,6 +1363,7 @@ section{/*==== market section ====*/
     font-size: 1.5rem;
     margin-right: 0.2rem; /* Espacio entre estrellas */
 }
+
 .client .swiper-slide .slide span{
     color: var(--text-color);
 }
@@ -1408,4 +1405,89 @@ section{/*==== market section ====*/
     .swiper-slide .slide h1{
         font-size: 2.4rem;
     }
+}
+
+
+
+/* Section FOOTER */
+
+.footer{
+    background: var(--text-color);
+}
+
+.footer .footer-row {
+    padding: 2rem 16rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.footer-row .footer-col img{
+    width: 200px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+
+.footer-row .footer-col p{
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.footer-row .footer-col span{
+    display: block;
+    color: #fff;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.footer-row .footer-col span i{
+    background: var(--main-color);
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.footer-row .footer-col h5{
+    color: #fff;
+    font-size: 1.9rem;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.footer-row .footer-col h5::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    border-radius: 3px;
+    background: #fff;
+    bottom: 0;
+}
+
+.footer-row .footer-col h5::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--main-color);
+    bottom: 0;
+    left: 40px;
+}
+
+.footer-row .footer-col a{
+    display: block;
+    color: #fff;
+    font-size: 1.6px;
+    padding-left: 1rem;
+    transition: 0.4s;
+}
+
+.footer-row .footer-col a:hover{
+    padding-left: 5px;
+    color: var(--main-color);
 }
