@@ -1224,10 +1224,6 @@ section{/*==== market section ====*/
     color: var(--text-color);
 }
 
-.brand h1 span{
-    color: var(--main-color);
-}
-
 .brand .brand-row{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -1244,7 +1240,7 @@ section{/*==== market section ====*/
 }
 
 .brand-row .brand-col:hover{
-    transform: translateY(-5px);
+    transform: translateY(-8px);
 }
 
 .brand-row .brand-col img{
@@ -1286,40 +1282,96 @@ section{/*==== market section ====*/
 }
 
 
+
+
 /*-- client section --*/
 
-.client{
+.client {
     text-align: center;
     padding-top: 7rem;
     padding-bottom: 5rem;
 }
 
-.client .slide{
-    background: #fff;
-    box-shadow: 0 0 2px #646161;
-    padding: 1rem;
-}
-
-.client .slide img{
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; 
-    background: var(--main-color);
-    padding: 1rem;
-}
-
-.client .slide span{
+.client h4 {
     color: var(--main-color);
-    font-size: 1.6rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
     font-weight: 600;
+    letter-spacing: 2px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.client .slide p{
+.client h1 {
+    padding-bottom: 4rem;
+    font-size: 4.2rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
     color: var(--text-color);
-    padding: 1.4rem;
 }
 
-.client .slide i{
-    color: var(--main-color);
+.client p {
+    color: var(--text-color);
+    font-size: 1.3rem;
+    padding-bottom: 3rem;
+}
+
+/* Sección de testimonios */
+.client .slide {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+    padding: 2rem; /* Aumenta el padding para más espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 300px; /* Limita el ancho de cada testimonio */
+    margin: 0 auto 2rem auto; /* Centrará el slide y agregará un margen inferior */
+    text-align: center; /* Asegura que el texto esté centrado */
+}
+
+.client .slide img {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: 100px;
+    border-radius: 50%; 
+    border: 5px solid var(--main-color); /* Añade un borde alrededor de la imagen */
+    background: var(--main-color);
+    padding: 0.5rem;
+    margin-bottom: 1.5rem; /* Agrega un margen inferior */
+}
+
+.client .slide h5 {
     font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.client .slide span {
+    color: var(--main-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 1rem; /* Espacio debajo del rol del cliente */
+}
+
+.client .slide p {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    line-height: 1.5; /* Mejora la legibilidad */
+    margin-bottom: 1.5rem;
+}
+
+.client .stars i {
+    color: var(--main-color);
+    font-size: 1.5rem;
+    margin-right: 0.2rem; /* Espacio entre estrellas */
+}
+
+/* Para la vista en dispositivos móviles */
+@media (max-width: 768px) {
+    .client .swiper-wrapper {
+        flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+    }
+
+    .client .slide {
+        max-width: 90%; /* Ocupa más espacio en pantallas pequeñas */
+    }
 }
